@@ -1,0 +1,65 @@
+body {
+    background: url("back.jpg");
+    background-size: 1400px auto;
+    text-align: center;
+}
+.col{
+    display: inline-block;
+    width: 200px;
+    height: 310px;
+    background: #fff;
+    margin: 80px 2px;
+}
+.topRow{
+    background: rgba(52, 73, 94, 1);
+    height: 150px;
+    width: 100%;
+    color: #fff;
+    font-family: sans-serif;
+}
+.topRow>.title{
+    text-transform: uppercase;
+    padding: 10px;
+}
+.topRow>.price *{
+    display: inline-block;
+}
+.number{
+    font-size: 3em;
+    margin-left: 10px
+}
+.btn{
+    border: 2px solid #bcbcbc;
+    width: 150px;
+    margin: 0px auto;
+    border-radius: 5px;
+    font-size: 0.8em;
+    padding: 6px 0px;
+    margin-top: 10px;
+    color:#bcbcbc;
+}
+.dollar{
+    position: relative;
+    top: -20px;
+    margin-left: 20px;
+    color:#bcbcbc;
+}
+.perMonth{
+    color:#bcbcbc;
+}
+i{
+    color: #bcbcbc; 
+}
+.bottom{
+    text-align: left;
+    padding-left: 30px
+}
+hr{
+    width: 130px;
+    margin-left:-2px
+}
+strong{
+ color:#7e7e7e
+}
+
+    
